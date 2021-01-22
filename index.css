@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.block {
+    width: 336px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(196, 196, 196);
+    border-image: initial;
+    border-radius: 10px;
+}
+
+
+.block__line-above-title {
+    background-color: rgb(255, 220, 64);
+    width: 336px;
+    height: 28px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.sort {
+    background-color: unset;
+    margin-left: 268px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+
+.block__input-parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(196, 196, 196);
+    border-image: initial;
+    border-radius: 10px;
+    margin: 12px;
+}
+
+.block__input {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding-left: 7px;
+    border-radius: 10px;
+}
+
+.block__input_move-list {
+    background-color: unset;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+
+.block__what-need-to-do {
+    width: 250px;
+    height: 38px;
+    background-color: unset;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+
+.block__input_delete-items {
+    background-color: unset;
+    padding-left: 41px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+
+.block__add-new-item-in-list {
+    width: 150px;
+    height: 42px;
+    display: flex;
+    background-color: rgb(131, 58, 224);
+    position: relative;
+    left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 71px;
+}
+
+.plus {
+    background-color: rgb(153, 83, 241);
+    width: 42px;
+    height: 42px;
+    color: rgb(255, 255, 255);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 71px;
+    outline: none;
+}
+
+.block__add-new-item-in-list p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-left: 11px;
+    font-size: 14px;
+    font-weight: 400;
+}

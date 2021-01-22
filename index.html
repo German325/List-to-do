@@ -1,0 +1,46 @@
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List to Do</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="container">
+        <section class="block">
+            
+            <div class="block__line-above-title"></div>
+            <h1>To-Do List</h1>
+
+            <button class="sort">
+            <img class="block__sort-by-letters" src="images/sort.png" alt="arrow">
+            </button>
+
+            <div class="block__input-parent"> 
+                <div class="block__input" draggable="true" style="background: unset;">   
+                    
+                    <button class="block__input_move-list">
+                        <img src="images/Group 36.png" alt="element-for-moving-items">
+                    </button>
+                    
+                    <input class="block__what-need-to-do" name="need-to-do" type="text" style="background: unset;">
+                    
+                    <button class="block__input_delete-items">
+                        <img src="images/Group 56.png" alt="cross">
+                    </button>
+                
+                </div>
+            </div>
+
+            <div class="block__add-new-item-in-list">
+                <button class="plus">+</button>
+                <p>Добавить</p>
+            </div>
+
+        </section>           
+
+    </main>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
